@@ -3,6 +3,7 @@ mod day02;
 mod day03;
 mod day04;
 mod day05;
+mod day06;
 
 pub fn main() {
   println!("Advent of code 2022; rust training!");
@@ -21,4 +22,7 @@ pub fn main() {
   println!("\n# Day 05");
   println!("  P1 answer: {}", day05::exec_part1());
   println!("  P2 answer: {}", day05::exec_part2());
+  println!("\n# Day 06");
+  println!("  P1 answer: {}", day06::exec_part1());
+  println!("  P2 answer: {}", day06::exec_part2());
 }
